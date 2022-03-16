@@ -1,0 +1,5 @@
+.header {
+    filter: grayscale(80%);
+    margin-top: 30vh;
+    font-size: 2em;
+  }
