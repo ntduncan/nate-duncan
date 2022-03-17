@@ -3,7 +3,7 @@
     background: url('../../util/images/other.jpeg')  no-repeat center;
     background-size: cover;
     position: fixed;
-    filter: grayscale(85%);
+    /* filter: grayscale(85%); */
     text-align: center;
     height: 100vh;
     width: 100vw;
