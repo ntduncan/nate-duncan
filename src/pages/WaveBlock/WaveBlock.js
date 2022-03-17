@@ -51,7 +51,7 @@ export default function WaveBlock() {
       </div>
 
       <div className="content flex">
-          <h1><FaChevronDown /></h1>
+          <h1 className="chevron"><FaChevronDown /></h1>
       </div>
     </div>
   );

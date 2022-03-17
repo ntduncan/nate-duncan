@@ -9,9 +9,8 @@ export default function Header() {
   <ReactTypingEffect
     text={[
       "Hey, I'm Nate.",
-      "I'm a code enthusiest.",
-      "I'm a fullstack developer,",
-      "I'm a fly fisherman,",
+      "I'm a code enthusiast.",
+      "I'm a fullstack developer.",
     ]}
     speed={100}
     eraseSpeed={100}

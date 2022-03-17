@@ -13,7 +13,7 @@
 }
 
 .inner-header {
-  height:65vh;
+  height:70vh;
   width:100%;
   margin: 0;
   padding: 0;
@@ -63,6 +63,18 @@
   animation-delay: -5s;
   animation-duration: 20s;
 }
+
+.chevron {
+  animation: bob 3s infinite ease-out;
+
+}
+
+@keyframes bob {
+  0% { transform: translateY(0em);}
+  50% { transform: translateY(.5em);}
+  100% { transform: translateY(0em);}
+}
+
 @keyframes move-forever {
   0% {
    transform: translate3d(-90px,0,0);
