@@ -1,0 +1,10 @@
+.chevron {
+  animation: bob 3s infinite ease-out;
+}
+
+.arrow-down {
+  position: relative;
+  /* height:20vh; */
+  text-align: center;
+  color: #111;
+}
