@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import styles from "./PageOne.module.css";
-import Header from './header/Header'
-
+import Header from "./header/Header";
+import WaveBlock from "./WaveBlock/WaveBlock";
 
 export default function PageOne() {
   return (
@@ -10,7 +10,10 @@ export default function PageOne() {
         <h1 className={styles["titel-block__title"]}>Nate Duncan</h1>
         <p className={styles["titel-block__subtitle"]}>Web Developer</p>
       </div>
-     <Header />
+      <Header />
+      <div className={styles.bottom}>
+        {/* <WaveBlock /> */}
+      </div>
     </div>
   );
 }

@@ -2,10 +2,10 @@
 .pageOne {
     background: url('../../util/images/other.jpeg')  no-repeat center;
     background-size: cover;
-    position: fixed;
+    position: relative;
     /* filter: grayscale(85%); */
     text-align: center;
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
     color: #fff;
   }
@@ -25,6 +25,10 @@
 .titel-block__subtitle{
   color: rgb(199, 199, 199);
   margin-top: -1em;
+}
+
+.bottom {
+  margin-top: 25vh
 }
 
 

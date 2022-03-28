@@ -1,14 +1,11 @@
 import React from "react";
-import './WaveBlock.css';
-import { FaChevronDown } from 'react-icons/fa';
+import "./WaveBlock.css";
 
 export default function WaveBlock() {
   return (
     <div>
       <div className="header">
-        <div className="inner-header flex">
-
-        </div>
+        <div className="inner-header flex"></div>
 
         <div>
           <svg
@@ -17,7 +14,7 @@ export default function WaveBlock() {
             xlink="http://www.w3.org/1999/xlink"
             viewBox="0 24 150 28"
             preserveAspectRatio="none"
-            shape-rendering="auto"
+            shapeRendering="auto"
           >
             <defs>
               <path
@@ -50,9 +47,6 @@ export default function WaveBlock() {
         </div>
       </div>
 
-      <div className="content flex">
-          <h1 className="chevron"><FaChevronDown /></h1>
-      </div>
     </div>
   );
 }

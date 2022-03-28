@@ -1,0 +1,23 @@
+.page-two {
+  height: 50vh;
+  width: 100vw;
+  background-color: #fff;
+  color: #111;
+  position: fixed;
+}
+
+.skills-container {
+  padding: 2em 0em;
+}
+
+.skills-container__left {
+  
+}
+
+.skills-container__right {
+  
+}
+
+.wave-container{
+    margin-top: -16.5vh;
+}
