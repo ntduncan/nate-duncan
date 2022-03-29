@@ -11,9 +11,6 @@ export default function PageOne() {
         <p className={styles["titel-block__subtitle"]}>Web Developer</p>
       </div>
       <Header />
-      <div className={styles.bottom}>
-        {/* <WaveBlock /> */}
-      </div>
     </div>
   );
 }

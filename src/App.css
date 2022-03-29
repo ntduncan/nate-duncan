@@ -1,4 +1,8 @@
 .App {
+
+}
+
+.App-content {
   text-align: center;
   display: flex;
   flex-direction: column;
