@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import "./ProfileCard.css";
 import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
 
 export default function ProfileCard() {
-  const buttons = document.querySelectorAll(".card-buttons button");
-  const sections = document.querySelectorAll(".card-section");
+
   const cardRef = React.createRef();
 
   const aboutRef = React.createRef();
@@ -13,7 +12,7 @@ export default function ProfileCard() {
   const about = React.createRef();
   const contact = React.createRef();
 
-  let [targetSection, setTargetSection] = useState(about);
+  // let [targetSection, setTargetSection] = useState(about);
 
   const handleButtonClick = () => {
     //   targetSection.current.getAttribute("data-section") !== about
@@ -36,10 +35,10 @@ export default function ProfileCard() {
           <h2 className="card-jobtitle">Full Stack Developer</h2>
         </div>
         <div className="card-social">
-          <a href="#">
+          <a href="https://github.com/ntduncan">
             <FaGithubSquare />
           </a>
-          <a href="#">
+          <a href="https://www.linkedin.com/in/nate-duncan-68bb061b3/">
             <FaLinkedin />
           </a>
         </div>
@@ -52,22 +51,27 @@ export default function ProfileCard() {
                 <img
                   className="tech-icon"
                   src="https://daynin.github.io/clojurescript-presentation/img/react-logo.png"
+                  alt="tech-icon"
                 />
                 <img
                   className="tech-icon"
                   src="https://angularjs.org/img/ng-logo.png"
+                  alt="tech-icon"
                 />
                 <img
                   className="tech-icon"
                   src="https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg"
+                  alt="tech-icon"
                 />
                 <img
                   className="tech-icon"
                   src="https://imgs.search.brave.com/NtMHE94kRcAOBDWfA9e5p4GSCgiM8kSUhv_QKwJF7rM/rs:fit:211:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5V/b1RMUkthTWZNcWhj/bGhfRVRNLXJnQUFB/QSZwaWQ9QXBp"
+                  alt="tech-icon"
                 />
                 <img
                   className="tech-icon"
                   src="https://imgs.search.brave.com/TMqzwKOX3gFX0hiO_dfp7tMAfP2Mjm2smTmHleAC9as/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5i/SThLRGpkOC1uRHZ6/VFhfVW9rN0Z3SGFI/YSZwaWQ9QXBp"
+                  alt="tech-icon"
                 />
               </div>
             </div>
@@ -79,14 +83,17 @@ export default function ProfileCard() {
                 <img
                   className="tech-icon"
                   src="https://code-maven.com/img/node.png"
+                  alt="tech-icon"
                 />
                 <img
                   className="tech-icon"
                   src="https://imgs.search.brave.com/d9gQcdK58bEcEfVYg9I1nnMRHKGqOuF35gnBjB-GWkE/rs:fit:185:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5u/cGJhR1ZPc0JjLUtW/bUFTdUNMSGhBSGFK/UyZwaWQ9QXBp"
+                  alt="tech-icon"
                 />
                 <img
                   className="tech-icon"
                   src="https://imgs.search.brave.com/JLxnDhbs2GAdhNIy4Y1YiauKpBIgy8b7dI7drWfdhGk/rs:fit:300:225:1/g:ce/aHR0cHM6Ly90c2Uy/LmV4cGxpY2l0LmJp/bmcubmV0L3RoP2lk/PU9JUC5JX21vMGlY/RE84UkRTbDYwdFAz/UVNnQUFBQSZwaWQ9/QXBp"
+                  alt="tech-icon"
                 />
               </div>
             </div>
@@ -101,7 +108,7 @@ export default function ProfileCard() {
                 contact.current.classList.remove("is-active");
                 aboutRef.current.classList.add("is-active");
                 contactRef.current.classList.remove("is-active");
-                setTargetSection(about);
+                // setTargetSection(about);
                 handleButtonClick();
               }}
             >
@@ -115,7 +122,7 @@ export default function ProfileCard() {
                 contact.current.classList.add("is-active");
                 aboutRef.current.classList.remove("is-active");
                 contactRef.current.classList.add("is-active");
-                setTargetSection(contact);
+                // setTargetSection(contact);
                 handleButtonClick();
               }}
             >

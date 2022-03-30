@@ -1,28 +1,24 @@
 .page-three {
     position: fixed;
-    height: 50vh;
+    height: fit-content;
+    
 }
 
 .about-me {
+    background-color: #1F261A;
     width: 100vw;
     height: 100vh;
     display: flex;
+    padding-top: 15rem;
     
 }
 
 .about-me__right {
-    background-image: url("../../../util/images/southfork.JPG");
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 80vh;
-    width: 100%;
 }
 
 .about-me__left {
-    background-color: #1F261A;
-    height: 80vh;
-    width: 50%;
-}
+    /* justify-content: left; */
+} 
 
 .rotate {
     transform: scaleX(-1) translatey(9.25em) rotate(180deg);

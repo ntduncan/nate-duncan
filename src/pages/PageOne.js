@@ -1,7 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import styles from "./PageOne.module.css";
 import Header from "./header/Header";
-import WaveBlock from "./WaveBlock/WaveBlock";
+
 
 export default function PageOne() {
   return (
