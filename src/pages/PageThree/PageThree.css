@@ -8,16 +8,20 @@
     background-color: #1F261A;
     width: 100vw;
     height: 100vh;
-    display: flex;
     padding-top: 15rem;
     
 }
 
-.about-me__right {
+.about-me__title {
+margin-bottom: 2rem;
+padding-left: 1em;
+text-align: left;
+color: #fff;
+font-size: 3rem;
 }
 
-.about-me__left {
-    /* justify-content: left; */
+.about-me__body {
+    padding: 2em;
 } 
 
 .rotate {
