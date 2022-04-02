@@ -5,6 +5,7 @@
 .arrow-down {
   position: relative;
   /* height:20vh; */
+  margin-top: -2rem;
   text-align: center;
   color: #111;
 }

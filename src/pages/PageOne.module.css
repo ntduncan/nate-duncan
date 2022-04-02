@@ -1,11 +1,14 @@
 
 .pageOne {
-    background: url('../../util/images/other.jpeg')  no-repeat center;
-    background-size: cover;
+    /* background: url('../../util/images/other.jpeg')  no-repeat center; */
+    /* background: url('https://images.unsplash.com/photo-1519852476561-ec618b0183ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1156&q=80')  no-repeat center; */
+    /* background: linear-gradient(to bottom, rgba(187, 28, 250, 0) 0%, rgba(69, 56, 248, 0.39) 44%, rgba(156, 22, 245, 0.4) 100%); */
+    background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+    /* background-size: cover; */
     position: relative;
     /* filter: grayscale(85%); */
     text-align: center;
-    height: 90vh;
+    height: 85vh;
     width: 100vw;
     color: #fff;
   }
@@ -14,17 +17,19 @@
 .title-block {
   padding-right: 1.5em;
   /* float: left; */
-  text-align: right;
+  /* text-align: right; */
 }
 
 .title-block__title {
   padding: 0;
   margin: 0;
+  color:rgb(158, 157, 157);
+  font-size: 6em;
 }
 
 .titel-block__subtitle{
   color: rgb(199, 199, 199);
-  margin-top: -1em;
+  margin-top: -.05em;
 }
 
 .bottom {

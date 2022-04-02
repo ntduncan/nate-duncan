@@ -7,8 +7,8 @@ export default function PageOne() {
   return (
     <div className={[styles.pageOne].join(" ")}>
       <div className={styles["title-block"]}>
-        <h1 className={styles["titel-block__title"]}>Nate Duncan</h1>
-        <p className={styles["titel-block__subtitle"]}>Web Developer</p>
+        {/* <h1 className={styles["title-block__title"]}>Nate Duncan</h1>
+        <p className={styles["titel-block__subtitle"]}>Web Developer</p> */}
       </div>
       <Header />
     </div>

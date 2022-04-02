@@ -3,7 +3,6 @@ import "./ProfileCard.css";
 import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
 
 export default function ProfileCard() {
-
   const cardRef = React.createRef();
 
   const aboutRef = React.createRef();
@@ -45,7 +44,7 @@ export default function ProfileCard() {
         <div className="card-main">
           <div className="card-section is-active" id="about" ref={about}>
             <div className="card-content">
-              <h2 className="card-subtitle">Frontend Exp</h2>
+              <h2 className="card-subtitle">Technology Experience</h2>
               <br />
               <div className="icon-wrapper">
                 <img
@@ -73,13 +72,6 @@ export default function ProfileCard() {
                   src="https://imgs.search.brave.com/TMqzwKOX3gFX0hiO_dfp7tMAfP2Mjm2smTmHleAC9as/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5i/SThLRGpkOC1uRHZ6/VFhfVW9rN0Z3SGFI/YSZwaWQ9QXBp"
                   alt="tech-icon"
                 />
-              </div>
-            </div>
-          </div>
-          <div className="card-section" id="contact" ref={contact}>
-            <div className="card-content">
-              <h2 className="card-subtitle">Backend Exp</h2>
-              <div className="icon-wrapper">
                 <img
                   className="tech-icon"
                   src="https://code-maven.com/img/node.png"
@@ -98,6 +90,58 @@ export default function ProfileCard() {
               </div>
             </div>
           </div>
+          <div className="card-section" id="contact" ref={contact}>
+            <div className="card-content">
+              <div className="row">
+                <hr/>
+                  <h1>BYU-Idaho Support Center</h1>
+                  <hr/>
+                <div className="column">
+              <div className="work-experience">
+                <div className="job-title">
+                  <h2>Reports & Systems Developer</h2>
+                  <h4 className="work-time">Nov 2020 – Apr 2021</h4>
+                </div>
+                <ul className="work-details">
+                  <li>
+                    Building and maintaining major data systems for the support
+                    center
+                  </li>
+                  <li>
+                    Creation and maintenance of the agent evaluation website
+                    used by the Quality Assurance team.
+                  </li>
+                  <li>
+                    Creation and maintenance of forms, reports, and other
+                    support center systems.
+                  </li>
+                </ul>
+              </div>
+                </div>
+                <div className="column">
+                <div className="work-experience">
+                <div className="job-title">
+                  <h2>Reports and Systems Project Manager</h2>
+                  <h4 className="work-time">Apr 2021 - Present</h4>
+                </div>
+                <ul className="work-details">
+                  <li>Oversee progress of all team projects</li>
+                  <li>
+                    Brainstorming/Collaboration on automations for other departments on campus.
+                  </li>
+                  <li>
+                    Recruiting and hiring developers
+                  </li>
+                  <li>
+                    Regularly conducting progress reviews with employees
+                  </li>
+                </ul>
+              </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
           <div className="card-buttons">
             <button
               data-section="#about"
@@ -112,7 +156,7 @@ export default function ProfileCard() {
                 handleButtonClick();
               }}
             >
-              FRONTEND
+              TOOLBOX
             </button>
             <button
               data-section="#contact"
@@ -126,7 +170,7 @@ export default function ProfileCard() {
                 handleButtonClick();
               }}
             >
-              BACKEND
+              EXPERIENCE
             </button>
           </div>
         </div>

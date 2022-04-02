@@ -13,6 +13,7 @@
     flex-direction: column;
     border-radius: 10px;
     box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   
   .card.is-active .card-header {
@@ -69,7 +70,8 @@
     filter: blur(30px);
     transform: scale(1.2);
     transition: 0.5s;
-    background-image: url('../../../util/images/other.jpeg')
+    /* background-image: url('https://images.unsplash.com/photo-1519852476561-ec618b0183ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1156&q=80') */
+    background: linear-gradient(to bottom, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 40%, rgba(211, 226, 255, 0.4) 100%);
   }
   
   .card-avatar {
@@ -150,14 +152,14 @@
   }
   .card-social svg {
     fill: #a5b5ce;
-    width: 16px;
+    width: 24px;
     display: block;
     transition: 0.3s;
   }
   .card-social a {
     color: #8797a1;
-    height: 32px;
-    width: 32px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     display: inline-flex;
     align-items: center;
@@ -202,8 +204,8 @@
   }
   .card-buttons button.is-active, .card-buttons button:hover {
     color: #2b2c48;
-    border-bottom: 3px solid #8a84ff;
-    background: linear-gradient(to bottom, rgba(127, 199, 231, 0) 0%, rgba(207, 204, 255, 0.2) 44%, rgba(211, 226, 255, 0.4) 100%);
+    border-bottom: 3px solid rgba(0,172,193,1);
+    background: linear-gradient(to bottom, rgba(33, 173, 233, 0) 0%, rgba(156, 219, 255, 0.2) 44%, rgba(211, 226, 255, 0.4) 100%);
   }
   
   .card-section {
@@ -278,6 +280,7 @@
   .tech-icon {
     width: auto;
     height: 100px;
+    margin-left: 2em;
     
   }
 
@@ -285,5 +288,38 @@
     text-align: center;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
   }
+
+  .work-experience {
+  }
+  
+  .job-title {
+    color: #6f6f7b
+  }
+  
+  .work-details {
+    text-align: left;
+    list-style: circle;
+  }
+
+  .work-time {
+    margin-top: -1em;
+    color: #7e7e8b
+  }
+
+  /* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 47%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

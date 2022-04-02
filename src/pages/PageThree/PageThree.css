@@ -5,10 +5,14 @@
 }
 
 .about-me {
-    background-color: #1F261A;
+    /* background: #8a84ff; */
+    /* background: linear-gradient(to bottom, rgba(156, 22, 245, 0.4) 0%,  rgba(69, 56, 248, 0.39) 44%, rgba(187, 28, 250, 0) 100%); */
+    background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+    background-position: fixed;
     width: 100vw;
     height: 100vh;
-    padding-top: 15rem;
+    padding-top: 8rem;
+    padding-bottom: 3rem;
     
 }
 

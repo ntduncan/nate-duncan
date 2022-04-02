@@ -9,8 +9,8 @@ export default function PageTwo() {
     <div>
       <div className="wave-container">
         <WaveBlock />
-      </div>
       <DownArrow />
+      </div>
       <div className="skills-container">
         <div className="skills-container__left">
           <ProfileCard />
