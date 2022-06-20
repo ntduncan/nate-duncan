@@ -37,19 +37,16 @@ export default function PageThree() {
               haven't tried out yet.
             </p>
           </BlogCardLeft>
-          <BlogCardLeft
+          {/* <BlogCardLeft
             alternate={false}
             photoUrl="https://images.unsplash.com/photo-1470549638415-0a0755be0619?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzF8fHJlYWRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60"
           >
             <h1>Reading</h1>
             <h2>Experience life in a differnt time</h2>
             <p>
-              I enjoy deep thinking into philisophical topics. Old literature is
-              a great source of deep thinking opportunities. Reading books from
-              50 - 100 years ago allows the reader to see life through a
-              completely differnt lense.
+              I enjoy deep thinking! 
             </p>
-          </BlogCardLeft>
+          </BlogCardLeft> */}
         </div>
       </div>
         <div className="wave-container">

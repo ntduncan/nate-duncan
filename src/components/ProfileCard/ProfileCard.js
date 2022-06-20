@@ -34,10 +34,10 @@ export default function ProfileCard() {
           <h2 className="card-jobtitle">Full Stack Developer</h2>
         </div>
         <div className="card-social">
-          <a href="https://github.com/ntduncan">
+          <a href="https://github.com/ntduncan" target="_blank" width="50" height="50">
             <FaGithubSquare />
           </a>
-          <a href="https://www.linkedin.com/in/nate-duncan-68bb061b3/">
+          <a href="https://www.linkedin.com/in/nate-duncan/" target="_blank" width="50" height="50">
             <FaLinkedin />
           </a>
         </div>
