@@ -1,5 +1,5 @@
 import React from 'react'
-import "collapsibleCard.css";
+import "./CollapsibleCard.css";
 
 export default function CollapsibleCard({logo, cardBody, title}) {
     return (
@@ -7,8 +7,8 @@ export default function CollapsibleCard({logo, cardBody, title}) {
             <h1 className="title">
                 {title}
             </h1>
-            <div className="logo">
-                <img src={logo} alt="image"/>
+            <div>
+                <img src={logo} alt="image" className="logo"/>
             </div>
             <div className="card-body">
                 {cardBody}

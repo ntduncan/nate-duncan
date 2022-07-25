@@ -1,14 +1,12 @@
 import React from 'react'
-import "collapsibleCards.css";
-import {CollapsibleCard} from "CollapsibleCard.js";
+import "./CollapsibleCards.css";
+import CollapsibleCard from "./CollapsibleCard.js";
 
 export default function CollapsibleCards({cardData}) {
     return (
-        <div>
+        <div className="cards">
             {
-                cardData.forEach(card => {
-                    <CollapsibleCard logo={card.logo} cardBody={card.body} title={card.title}/>
-                })
+                cardData.map(card => { return  <CollapsibleCard key={cardData.indexOf(card)} logo={card.logo} cardBody={card.body} title={card.title} /> })
             }
         </div>
     )

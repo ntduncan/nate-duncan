@@ -1,4 +1,12 @@
 .card-container {
     background-color: #aaa;
     padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 100px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
 }
